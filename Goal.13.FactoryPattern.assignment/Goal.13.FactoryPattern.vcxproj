@@ -134,8 +134,8 @@
     <ClInclude Include="Library.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterFactory.h" />
-    <ClInclude Include="ObectFactory.h" />
     <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectFactory.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerFactory.h" />
   </ItemGroup>
@@ -148,9 +148,13 @@
     <ClCompile Include="HealStrategy.cpp" />
     <ClCompile Include="iStrategy.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Library.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterFactory.cpp" />
     <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerFactory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

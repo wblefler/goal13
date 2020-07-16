@@ -19,11 +19,11 @@
     <Filter Include="Source Files\Strategies">
       <UniqueIdentifier>{ab0c1c08-f9e5-42dd-a259-d8b95e253b50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Factories">
-      <UniqueIdentifier>{a117d045-72d2-4b63-bc06-887d8ac04469}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Factories">
       <UniqueIdentifier>{598c65d7-9d99-458b-8ba4-c7d90a984667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{55ae28be-7492-4b99-b1b7-075b0e6ce90b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,16 +58,16 @@
       <Filter>Header Files\Strategies</Filter>
     </ClInclude>
     <ClInclude Include="Library.h">
-      <Filter>Header Files\Factories</Filter>
-    </ClInclude>
-    <ClInclude Include="ObectFactory.h">
-      <Filter>Header Files\Factories</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterFactory.h">
-      <Filter>Header Files\Factories</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PlayerFactory.h">
-      <Filter>Header Files\Factories</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +102,18 @@
       <Filter>Source Files\Strategies</Filter>
     </ClCompile>
     <ClCompile Include="Goal.13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
